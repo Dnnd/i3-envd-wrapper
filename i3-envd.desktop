@@ -1,0 +1,9 @@
+[Desktop Entry]
+Name=i3-Envd
+Comment=improved dynamic tiling window manager with envd-patch
+Exec=i3-envd-wrapper
+TryExec=i3-envd-wrapper
+Type=Application
+X-LightDM-DesktopName=i3-envd
+DesktopNames=i3
+Keywords=tiling;wm;windowmanager;window;manager;
