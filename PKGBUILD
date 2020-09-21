@@ -1,6 +1,6 @@
 # Maintainer: Danila Maslennikov <d.v.maslennikov@outlook.com>
 pkgname=i3-envd
-pkgver=1.0.0
+pkgver=1.0.1
 pkgrel=1
 pkgdesc="Wrapper to load env variables in i3 session"
 arch=("any")

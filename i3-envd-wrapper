@@ -18,5 +18,5 @@ if [ -d "$I3ENVD" ]; then
 fi
 unset conf
 set +a
-cat "$I3ENVD/*.conf" | xargs systemctl --user set-environment
+cat "$(ls $I3ENVD/*.conf)" | xargs systemctl --user set-environment
 exec i3 "$@"
